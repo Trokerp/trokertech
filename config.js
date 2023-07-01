@@ -75,5 +75,3 @@ watchFile(file, () => {
   console.log(chalk.redBright("Update 'config.js'"))
   import(`${file}?update=${Date.now()}`)
 })
-packname:  process.env.PACK_INFO.split(";")[1] === undefined ? 'TROKER-TECH' : process.env.PACK_INFO.split(";")[1],
-  autoreaction:  process.env.AUTO_REACTION  === undefined ? false : proc
